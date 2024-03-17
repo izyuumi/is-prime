@@ -2,6 +2,15 @@
 name = "is-prime"
 version = "0.1.0"
 edition = "2021"
+authors = ["Yumi Izumi <mail@yumi.to>"]
+description = "Check if a number is prime"
+documentation = "https://docs.rs/is-prime"
+readme = "README.md"
+homepage = "https://github.com/izyuumi/is-prime"
+repository = "https://github.com/izyuumi/is-prime"
+license = "MIT"
+keywords = ["prime", "math", "number"]
+categories = ["mathematics"]
 
 [dependencies]
 num-integer = "0.1.46"
