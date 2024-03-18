@@ -1,4 +1,4 @@
-# is-prime
+# primality
 
 Trait to check if a number is prime.
 
@@ -8,19 +8,19 @@ Add the following to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-is-prime = "0.1"
+primality = "0.1"
 ```
 
 Or run the following command:
 
 ```sh
-cargo add is-prime
+cargo add primality
 ```
 
 ## Usage
 
 ```rust
-use is_prime::IsPrime;
+use primality::IsPrime;
 
 assert!(2i8.is_prime());
 assert!(3usize.is_prime());
