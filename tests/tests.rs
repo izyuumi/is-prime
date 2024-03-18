@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use is_prime::IsPrime;
+    use primality::IsPrime;
 
     #[test]
     fn unsigned() {
